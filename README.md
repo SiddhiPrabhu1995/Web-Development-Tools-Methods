@@ -44,29 +44,3 @@ If `words.js` has the words "TEA, EAT, TEE, PEA, PET, APE" and the game selects 
 * EAT will respond with 3 matches and increment the turn counter then allow a new guess
 * TEA will respond that they have won the game in however many turns and allow them to start a new game with a new randomly selected word from the list
 
-## Allowances
-* You may reuse files or parts of files from previous assignments - but they will be graded by the criteria here!
-* You may create your HTML as you see fit, but it must be fundamentally semantically valid and other best practices from class
-* You may create the CSS as you see fit but you must follow the best practices given in class
-* You may add icons and background images but there is no requirement to do so
-
-## Restrictions
-* You should use `express` module only
-* You must add additional JS files (server-side ONLY) that YOU write to uphold the idea of separation of concerns
-* You must use the correct HTTP methods (GET for loading pages, POST for adding content)
-* Reloading a page should not trigger a POST (use a redirect)
-* Do not use external JS other than base express 
-* Do not use external CSS libraries
-* You may not use floats to do more than manage flowing text with images
-* You may not use HTML tables or CSS table layouts
-* You may NOT use client-side/browser-side Javascript
-* Do not have any files in your PR except for the exam (no files from other assignments, for example)
-* Do not use var
-* Do not use alert
-* Do not use poor or unclear variable names
-* Do not have functions that are too big/do too much
-* Do not have console.log messages or commented out code
-* Do not use localStorage
-* Do not use meta tag refreshes
-* Do not use CSS preprocessors, minifiers, or other tools to modify your CSS
-
