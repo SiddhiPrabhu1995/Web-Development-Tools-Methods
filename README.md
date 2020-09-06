@@ -1,17 +1,6 @@
 # Exam 1
 
-* Start from the up-to-date master branch (`git checkout master; git pull origin master`)
-* Create a feature branch named 'exam1' (`git checkout -b exam1`)
-* Modify the `questions.md` file to have the answers required
-* Add a `server.js`, a `words.js` and any other files necessary to create the multiple page web application below
-* Add, commit, and push the branch to github
-* Create a PR to merge to master
-* Be sure to include the reviewer(s).  
-* Due by 11:59pm (PT) Sun Jun 7  
-
 ## Goal and Requirements
-
-* Did you remember the above requirement about `questions.md`?
 
 The application will be a game to guess a word.
 
