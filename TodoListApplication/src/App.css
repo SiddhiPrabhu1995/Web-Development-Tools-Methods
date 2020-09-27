@@ -1,0 +1,300 @@
+html,
+body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  font-size: 15px;
+}
+
+
+label {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.app {
+  background:#db97f7;
+  color: chocolate;
+  height: 100%;
+  width: 100%;
+  padding: 40px auto;
+  position: absolute;
+}
+
+.login {
+  text-align: center;
+}
+
+.to-login {
+  margin: 10px;
+  height: 35px;
+  font-size: small;
+  width: auto;
+  padding: 5px 10px 20px 10px;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;  
+  border-radius: 10px;
+}
+
+
+.to-login:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.user-info {
+  height: 30px;
+  width: auto;
+
+}
+
+.user-info:focus{
+	background: rgb(241, 215, 215);
+	outline: none;
+}
+
+.navigation {
+  margin: 0 0 20px 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.navigation > li {
+  padding: 5px;
+}
+
+.navigation > li.action:hover {
+  background-color: black;
+  color: aquamarine;
+}
+
+.navigation > li.logout {
+  margin-left: auto;
+  margin-right: 10%;
+  color: red;
+  background-color: white;
+  font-size: medium;
+  width: auto;
+  padding: 5px 10px 10px 10px;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;  
+  border-radius: 10px;
+
+}
+
+.task-filter-label {
+  margin: auto 10px;
+  font-size: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.task-sort-label {
+  margin: auto 10px;
+  font-size: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.sortby-name{
+  font-size: 20px;
+}
+
+.sortby-donenotdone{
+  font-size: 20px;
+}
+
+.theme-label{
+  float: left;
+  width: auto;
+  height: 30px;
+}
+
+.select-sort{
+    
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+.sort-alphabetically {
+  margin: auto 10px;
+}
+
+.sort-by-status {
+  margin: auto 10px;
+}
+
+.sort-by-status {
+  margin: 5px;
+}
+
+.btn-refresh {
+  margin: 20px auto auto auto;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.btn-refresh:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.todo {
+  height: 25px;
+  margin: 2px;
+}
+
+.filter-height {
+  height: 20px;
+}
+
+.todo-checkbox {
+  width: 20px;
+}
+
+.theme {
+  float: left;
+  width: auto;
+  height: 30px;
+  margin: 0 20% 10px 0;
+  border-radius: 10px;
+}
+
+.app.light {
+  background: #db97f7;
+  }
+
+.app.dark {
+  background: rgb(5, 107, 13);
+  color: white;
+}
+
+.app.colorful {
+  background: linear-gradient(to right, #88e7df, #ddd99a);
+  color: black;
+}
+
+.navigation-header {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  margin: auto 40px;
+}
+
+.header {
+  margin: 0 auto 100px auto;
+
+  text-align: center;
+  font-style: normal;
+  height: 40px;
+  font-size: 50px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: normal;
+  color: rgb(248, 248, 246);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.second-header {
+  margin: 0 40px 20px 17%;
+  text-align: left;
+  color:white;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.todo-container {
+  text-align: center;
+}
+
+.add-todo-container {
+  margin: 20px;
+  height: 300px;
+  width: auto;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-input {
+  width: 30%;
+  height: 20px;
+  outline: none;
+  font-size: 20px;
+}
+
+.btn-todo-add {
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.btn-todo-add:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.todo {
+  border: 0;
+  width: 400px;
+}
+
+.error-msg {
+  color: rgb(243, 157, 157);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.filter-todos {
+  
+  border-style: double;
+  border-color: black;
+  text-align: center;
+  color: white;
+  margin-left: 20%;
+  width: 70%;
+  height: 5%;
+}
+
+.task-delete {
+  margin-right: 20px;
+  background-color: rgb(238, 59, 59);
+}
+
+.todo-display {
+  font-size: 15px;
+  width: fit-content;
+  text-align: center;
+  margin-left: 30%;
+  padding: inherit;
+}
+
+.sort-by-status{
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.sort-alphabetically{
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.filter-task{
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.display-theme{
+  font-size: 20px;
+  color: white;
+}
