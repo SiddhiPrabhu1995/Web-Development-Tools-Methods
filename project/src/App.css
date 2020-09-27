@@ -1,0 +1,628 @@
+body {
+  background: linear-gradient(#9198e5,#B4DFE5);
+  margin: 50px;
+   
+}
+
+.App {
+  text-align: center;
+}
+
+.image {
+  background-image: url('./couponimage.png');
+  background-repeat: repeat-x;
+  background-color: white;
+  height: 300px;
+}
+
+.header {
+	color:white;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
+	font-size: 3.25rem;
+  line-height: 1.1;
+	margin-bottom: 1rem;
+	border: 5px solid white;
+}
+
+.nav {
+  
+  margin: 0;
+  display: flex;
+  font-weight: bold;
+  box-shadow: 5px 10px 8px #888888;
+  padding: 10px 10px 10px 10px;
+  background: rgb(222, 230, 233);
+  height: 50px;
+}
+
+.nav > li {
+  padding: 5px 20px;
+}
+
+.nav > li.action:hover {
+  background-color: rgb(103, 247, 239);
+}
+
+.nav > li.logout-action {
+  margin-left: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.saved-coupons-header {
+  float: left;
+  margin: 0 2%;
+  color: rgb(247, 242, 240);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.user-info {
+  margin-right: 5px;
+  font-size: medium;
+  width: auto;
+  padding: 10px 10px 10px 10px; 
+}
+
+.login-button {
+  font-size: small;
+  width: auto;
+  padding: 10px 10px 10px 10px;  
+  font-weight: bold;  
+  border-radius: 10px;
+}
+
+.login-button:active {
+  background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.add-coupon {
+  height: 400px;
+  width: 300px;
+  display: flex-box;
+}
+
+.coupons-container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.coupon-container {
+  display: grid;
+  border-style: ridge;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 5px;
+}
+
+.filterby-category {
+  align-items: left;
+  padding: 30px 10px 20px 10px;
+  height: 50px;}
+
+.select-label {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.filterby-category > select {
+  font-size: 18px;
+  float: left;
+}
+
+.showcode-button {
+  margin: 1rem;
+  padding:10px 10px;
+  outline: none;
+  background-color: #27ae60;
+  border: none;
+  border-radius:5px;
+  box-shadow: 0 9px #95a5a6;
+}
+
+.showcode-button:hover{
+  background-color: #2ecc71;
+}
+
+.showcode-button:active {
+  background-color: #2ecc71;
+  box-shadow: 0 5px #95a5a6;
+  transform: translateY(4px);
+}
+
+.copy-button {
+  margin: 1rem;
+  padding:10px 10px;
+  outline: none;
+  background-color: #27ae60;
+  border: none;
+  border-radius:5px;
+  box-shadow: 0 9px #95a5a6;
+}
+
+.copy-button:hover{
+  background-color: #2ecc71;
+}
+
+.copy-button:active {
+  background-color: #2ecc71;
+  box-shadow: 0 5px #95a5a6;
+  transform: translateY(4px);
+}
+
+.savecode-button {
+  margin: 1rem;
+  padding:10px 10px;
+  outline: none;
+  background-color: #27ae60;
+  border: none;
+  border-radius:5px;
+  box-shadow: 0 9px #95a5a6;
+}
+
+.savecode-button:hover{
+  background-color: #2ecc71;
+}
+
+.savecode-button:active {
+  background-color: #2ecc71;
+  box-shadow: 0 5px #95a5a6;
+  transform: translateY(4px);
+}
+
+
+.error-message, .contactus-errormessage {
+  color: red;
+  font-size: 16px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.error-msg {
+  color: red;
+  font-size: 16px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.login-container {
+ 
+  align-items: center;
+  box-shadow: 5px 10px 8px #888888;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  background: rgb(222, 230, 233);
+  height: 50px;
+}
+
+
+.back-button {
+  text-align: center;
+  padding: 20px, 10px, 10px, 10px;
+}
+
+.coupon-details-container {
+  display: inline-flexbox;
+  border: 1px solid rgb(237, 240, 243);
+  border-radius: 2rem;
+  width: 50%;
+  height: 50%;
+  margin: 5% 25%;
+}
+
+
+.coupon-details {
+  border: 2px solid rgb(233, 237, 240);
+  border-style: ridge;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.admin-coupon-container {
+ 
+  display: inline-block;
+  width: 80%;
+  padding: 0;
+}
+
+.admin-label-container {
+  border: 1px solid rgb(25, 13, 126);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  
+}
+
+.admin-list {
+  border: 1px inset rgb(25, 13, 126);
+  font-size: medium;
+}
+
+.header-name {
+  margin: 1% 12% 1% 0;
+}
+
+.header-code {
+  margin: 1% 10% 1% 0;
+}
+
+.header-label {
+  margin: 1% 8% 1% 2%;
+}
+
+.header-desc {
+  margin: 1% 5% 1% 6%;
+}
+
+.update-button {
+  float: right;
+  margin: 5px 5px;
+}
+
+.coupon-description {
+  
+  width: 200px;
+  margin: 5px 5px 0px 10px;
+}
+
+.coupon-items {
+  height: 70%;
+  margin: 5px 30px;
+}
+
+.coupon-name {
+  height: 70%;
+  margin: 5px 20px;
+}
+
+.coupon-code {
+  height: 70%;
+  margin: 5px 20px;
+}
+
+.add-coupon {
+  display: inline-block;
+}
+
+.add-form {
+  border: 1px solid black;
+  background-color: whitesmoke;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10% 5%;
+  padding: 10px;
+  width: 100%;
+  height: 240px;
+}
+
+.form-elements {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 250px;
+  height: 30px;
+  margin: 5px;
+}
+
+.coupon-desc-inputarea {
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  height: 100px;
+  margin: auto;
+}
+
+.btn-delete {
+  float: right;
+}
+
+.delete-button {
+  float: right;
+  margin: 5px 5px;
+}
+
+.alert-message {
+  color: brown;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.copy-button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+.refresh-button {
+  font-size: small;
+  width: auto;
+  padding: 10px 10px 10px 10px;  
+  font-weight: bold;  
+  border-radius: 10px;
+  margin: 0 0 5px 80%;
+}
+
+.refresh-button:active {
+  background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.contactus-button {
+  width: 800px;
+  height: 60px;
+  padding: 10px, 10px, 10px, 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgb(166, 201, 214);
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.contactus-button:hover {
+  transition: 1s ease-in-out;
+  background: #685f8f;
+}
+
+.contactus-button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.contactus-button span {
+  color: rgb(166, 201, 214);;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+.msgback-button {
+  width: 180px;
+  height: 60px;
+  padding: 10px, 10px, 10px, 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid black;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgb(166, 201, 214);
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.msgback-button:hover {
+  transition: 1s ease-in-out;
+  background: #bda27f;
+}
+
+.msgback-button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.msgback-button span {
+  color: rgb(166, 201, 214);;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.msgsend-button, .createcoupon-button {
+  width: 180px;
+  height: 60px;
+  padding: 10px, 10px, 10px, 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid black;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgb(166, 201, 214);
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.msgsend-button, .createcoupon-button:hover {
+  transition: 1s ease-in-out;
+  background: #8bb478;
+}
+
+.msgsend-button, .createcoupon-button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.msgsend-button .createcoupon-button span {
+  color: rgb(166, 201, 214);;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+.add-button {
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  padding: 10px, 10px, 10px, 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid black;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgb(166, 201, 214);
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.add-button:hover {
+  transition: 1s ease-in-out;
+  background: #8bb478;
+}
+
+.add-button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.add-button  span {
+  color: rgb(1, 6, 8);
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+.mycoupon-button {
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  padding: 10px, 10px, 10px, 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid black;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgb(166, 201, 214);
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.mycoupon-button:hover {
+  transition: 1s ease-in-out;
+  background: #8bb478;
+}
+
+.mycoupon-button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.mycoupon-button span {
+  color: rgb(1, 6, 8);
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.back-button {
+  width: 180px;
+  height: 60px;
+  padding: 10px, 10px, 10px, 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid black;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgb(166, 201, 214);
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.back-button:hover {
+  transition: 1s ease-in-out;
+  background: #bda27f;
+}
+
+.back-button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.back-button span {
+  color: rgb(166, 201, 214);;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
