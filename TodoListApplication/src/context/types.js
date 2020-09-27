@@ -1,0 +1,16 @@
+export const SET_SESSION = 'SET_SESSION';
+export const GET_SESSION = 'GET_SESSION';
+export const SET_LOGOUT = 'SET_LOGOUT';
+export const SET_THEME = 'SET_THEME';
+export const GET_THEME = 'GET_THEME';
+export const SET_TODO = 'SET_TODO';
+export const GET_TODO = 'GET_TODO';
+export const UPDATE_TODO = 'UPDATE_TODO';
+export const DELETE_TODO = 'DELETE_TODO';
+export const TOGGLE_TODO = 'TOGGLE_TODO';
+export const STATUS_FILTER = 'STATUS_FILTER';
+export const ORDER_FILTER = 'ORDER_FILTER';
+export const REFRESH_TASKS = 'REFRESH_TASKS';
+export const REPORT_ERROR = 'REPORT_ERROR';
+export const NETWORK_ERROR = 'NETWORK_ERROR';
+export const DONE_FILTER = 'DONE_FILTER';
