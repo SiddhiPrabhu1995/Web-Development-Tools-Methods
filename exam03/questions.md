@@ -1,12 +1,5 @@
 # Exam 3 Questions
 
-* Answers should be roughly 2-5 sentences, and in your own words.  
-* Some questions ask for a code sample - keep them short and to the point.
-* Be sure to be clear - be careful not to use vague pronouns like "it" if I can't be completely sure what "it" is.
-* I cannot assume knowledge you don't demonstrate, so be clear and explicit.
-
-* NOTE: Because there is no coding portion to Exam 3, each of these questions is worth more to your grade than the questions on previous Exams!  Be sure to have answers you are confident shows your understanding!
-
 ## Q1: I have said that React JSX components are like functions and follow many of the same best practices.  Give at least 2 such best practices that are good for both JS functions and JSX Components.  (Be substantive!)
 1. The JSX components and JS functions should be small, resuable and which can be easier to modify, understand and test.
 2. Separation of Concern logic should be implemented to keep stateful data-loading separate from stateless rendering logic.Props are used to access the data.
