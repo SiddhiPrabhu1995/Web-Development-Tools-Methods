@@ -50,3 +50,4 @@ Able to write a simple single page web application (SPA) calling RESTful, extern
 
 Able to analyze provided designs to matching write a complex single page web application (SPA) and prior to actual coding identify potential problems with development due to insufficient/poor requirements.
 
+
