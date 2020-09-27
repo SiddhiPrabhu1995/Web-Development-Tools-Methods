@@ -1,0 +1,156 @@
+body{
+    background: linear-gradient(to left, #c5a720, #e3e66c, #bbeb87);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.container{
+    text-align: center;
+    width: 800px;
+	margin: 100px auto;
+	background-color: whitesmoke;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    outline-style: solid;
+    outline-color: rgb(243, 239, 237);
+    outline-width: 20px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(26, 26, 31);
+    margin: 20px;
+    text-transform: uppercase;
+	font-size: 30px;
+    font-weight: normal;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h3{
+    text-align: center;
+    color:rgb(117, 82, 6);
+}
+
+input{
+    width: 150px;
+    height: 25px;
+}
+
+input:focus{
+	background: rgb(241, 215, 215);
+	outline: none;
+}
+
+.add-button{
+    font-size: small;
+    width: auto;
+    padding: 5px 10px 20px 10px;  
+    font-weight: bold;  
+    border-radius: 10px;
+
+}
+
+.add-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding-bottom: 1px;
+    background: #fff;
+    text-align: left;
+
+}
+li:nth-child(2n){
+    background: whitesmoke;
+}
+
+li:hover{
+    transform: scale(1.06);
+    z-index: 100;
+    background: rgb(235, 234, 174);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+}
+
+
+
+.items{
+    
+    width: auto;
+    height: auto;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.status{
+    width: max-content;
+    margin: 5px;
+    color: blue;
+    font-style: italic;  
+    font-size: large;  
+    font-weight: bold;
+}
+.update-item{
+    margin: 20px;
+    float: right;
+
+}
+
+.quantity{
+    width: 30px;
+    margin: 20px;
+    float: right;
+}
+
+.delete{
+    background: #e74c3c;
+	text-align: left;
+    color: white;
+    margin-right: 5px;
+}
+
+button{
+    margin: 20px;
+    width: auto;
+    height: 30px;
+    font-weight: bold;
+}
+
+.login-button{
+
+    font-size: small;
+    width: auto;
+    padding: 5px 10px 20px 10px;  
+    font-weight: bold; 
+    font-weight: bold;  
+    border-radius: 10px; 
+}
+
+.login-button:active {
+    background-color: #538512;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.logout-button{
+    font-size: small;
+    width: auto;
+    padding: 5px 10px 20px 10px;  
+    font-weight: bold;  
+    border-radius: 10px;
+    float: right;
+}
+
+
+.logout-button:active {
+    background-color: #cf5d40;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
