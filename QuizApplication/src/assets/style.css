@@ -1,0 +1,167 @@
+
+body{
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(247, 248, 236);
+
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-style: normal;
+  height: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
+
+}
+
+.container {
+  position: absolute;
+  background-color: rgb(223, 134, 32);
+  width: 1024px;
+  height: 800px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+.title {
+  position: relative;
+  background-color: rgb(242, 245, 200);
+  padding: 20px;
+  font-size: 1.8em;
+  border-radius: 5px;
+  text-align: center;
+  font-style: normal;
+  height: 60px;
+  font-size: 50px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: normal;
+  color: rgb(31, 24, 20);
+}
+
+.display-score {
+  color: white;
+  font-style: normal;
+  height: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.turn-counter {
+  padding: 10px;
+  color: white;
+  font-style: normal;
+  height: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.question {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.question-box {
+  position: relative;
+  border: 1px solid rgba(4, 68, 23, 0.2);
+  margin-top: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: rgb(242, 245, 200);
+}
+
+.answer-button {
+  position: relative;
+  padding: 10px;
+  background-color: rgb(250, 151, 37);
+  display: inline-block;
+  margin: 10px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  color : black;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.score-board {
+  position: relative;
+  height: 700px;
+}
+
+.score {
+  position: absolute;
+  width: 1024px;
+  font-size: 3em;
+  top: 250px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.response {
+  position: absolute;
+  width: 1024px;
+  font-size: 3em;
+  top: 200px;
+  text-align: center;
+}
+
+.play-button {
+  position: absolute;
+  border-radius: 10px;
+  font-size: 1.4em;
+  padding: 10px;
+  top: 350px;
+  background-color: rgb(46, 182, 46);
+  color: rgb(255, 255, 255);
+  width: 150px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+}
+
+.play-button:active {
+  
+  background-color: #3bc752;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.next {
+  position: absolute;
+  margin: 20px;
+  margin-left: 380px;
+  padding: 20px;
+  font-size: medium;
+  width: 250px;
+  padding: 10px 10px 10px 10px;  
+  font-weight: bold;  
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.next:active {
+  
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
